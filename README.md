@@ -39,9 +39,10 @@ from transformers import pipeline
 classifieur = pipeline("sentiment-analysis", model="Narsat/camembert-sentiment-allocine")
 resultat = classifieur("Ce film est vraiment excellent !")
 print(resultat)
+# [{'label': 'positif', 'score': 0.9554412364959717}]
 ```
 
-*Note : le format exact des labels retournés (`LABEL_0`/`LABEL_1` ou équivalent) n'a pas encore été vérifié en sortie réelle , à tester avant de se fier à ce résultat pour une intégration dans une application.*
+*Note : le format exact des labels retournés (`positif`/`négatif`), à tester avant de se fier à ce résultat pour une intégration dans une application.*
 
 ## Installation et exécution
 
