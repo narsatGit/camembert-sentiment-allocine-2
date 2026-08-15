@@ -1,0 +1,2 @@
+Époque 1.0 - Loss: 0.23423554003238678 - Accuracy: 0.914
+Époque 2.0 - Loss: 0.2548072338104248 - Accuracy: 0.926

@@ -1,0 +1,19 @@
+venv/
+.env
+.venv
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers VSCode
+.vscode/
+
+# Broillons
+mon_modele.pth
+test.py
+resultats/checkpoint-*/
+exploration_pipelines.py
